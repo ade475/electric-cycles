@@ -11,13 +11,14 @@ function App() {
     <Router>
       <div className='app'>
         <Switch>
+          <Route path='/login'>
+            <Login />
+          </Route>
           <Route path='/checkout'>
             <Header />
             <Checkout />
           </Route>
-          <Route path='/login'>
-            <Login />
-          </Route>
+
           {/* This is the default route */}
           <Route path='/'>
             <Header />
