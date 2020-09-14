@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.header {
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(31, 31, 226);
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header__logo {
+  font-family: 'Lobster', cursive;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+}
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+.header__searchIcon {
+  background: #5b40f5;
+  height: 22px !important;
+  border: none;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 20px;
+}
+.header__option {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header__optionLineOne {
+  font-size: 10px;
+}
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header__basketCount {
+  margin: 0 10px;
+  color: white;
+}
