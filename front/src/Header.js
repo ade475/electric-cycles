@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import images from './images/mylogo.png';
 import './Header.css';
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
@@ -13,7 +13,7 @@ function Header() {
     <nav className='header'>
       {/* logo */}
       <Link to='/'>
-        <h1 className='header__logo'>CycleZon</h1>
+        <h1 className='header__logo'>Nels E-Cycles Web Store</h1>
       </Link>
 
       {/* searchbar and icon */}

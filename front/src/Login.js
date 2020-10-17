@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Login.css';
 import { Link, useHistory } from 'react-router-dom';
 import { auth } from './firebase';
-
+import images from './images/mylogo.png';
 function Login() {
   const history = useHistory();
   const [email, setEmail] = useState('');
@@ -36,11 +36,7 @@ function Login() {
   return (
     <div className='login'>
       <Link to='/'>
-        <img
-          className='login__logo'
-          src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png'
-          alt='amazon label'
-        />
+        <h1 className='header__logo'>Nels E-Cycles Web Store</h1>
       </Link>
 
       <div className='login__container'>

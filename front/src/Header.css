@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 .header {
-  height: 80px;
+  height: 120px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  background-color: rgb(31, 31, 226);
+  background-color: rgb(14, 14, 235);
   color: white;
   cursor: pointer;
   text-decoration: none;
@@ -21,9 +21,11 @@
   font-size: 25px;
   letter-spacing: 5px;
   margin-top: 15px;
+  margin-bottom: 25px;
   margin-left: 20px;
   margin-right: 20px;
   color: white;
+  text-decoration: none;
 }
 
 .header__search {
